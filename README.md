@@ -1,4 +1,4 @@
-# ImageMagick Source Installer
+# Rake for /ImageMagick Source Installer/
 
 Установка ImageMagick из исходного кода с использованием Rake
 
@@ -15,10 +15,11 @@
 
 ## Для установки
 ```bash
-  rake install_imgck
+  rake imgck_install
 ```
 
-# Для удаления
+## Для удаления
 ```bash
   rake rm_imgck
 ```
+

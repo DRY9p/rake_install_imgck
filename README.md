@@ -1,6 +1,7 @@
-# Rake for /ImageMagick Source Installer/
-
-Установка ImageMagick из исходного кода с использованием Rake
+# Rake tasks for 
+# / ImageMagick Source Installer /
+# / Creating & instalation brew profile on ~./bashrc /
+# / Creating & instalation Vips .conf dynamic profile for libs /
 
 ## Требования
 
@@ -17,8 +18,14 @@
 ```bash
   rake imgck_install
 ```
+```bash
+  rake vips_install
+```
+```bash
+  rake brew_install
+```
 
-## Для удаления
+## Для удаления после установки
 ```bash
   rake rm_imgck
 ```

@@ -1,7 +1,7 @@
 # Rake tasks for 
 ### / ImageMagick Source Installer /
-### / Creating & instalation brew profile on ~./bashrc /
-### / Creating & instalation Vips .conf dynamic profile for libs /
+### / Creating & installation brew profile on ~./bashrc /
+### / Creating & installation Vips .conf dynamic profile for libs /
 
 ## Требования
 

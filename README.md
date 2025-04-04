@@ -1,6 +1,6 @@
 # Rake for 
 ### / ImageMagick Source Installer /
-### / Creating & installation Vips .conf dynamic profile for libs /
+### / Creating & installation Vips lib /
 
 ## Требования
 
@@ -18,7 +18,7 @@
   rake imgck_install
 ```
 ```bash
-  rake vips_install
+  rake libvips_install
 ```
 
 ## Для удаления после установки

@@ -32,11 +32,14 @@ end
 
 # Solidus installation
 task :solidus_install  do
-  system 'sudo apt-get install nodejs'
-  sh 'rbenv global 3.3.7'
-  sh 'rails _7.2.2.1_ new my_store'
+  # additional arguments to versions ignoring task name
+  args = ARGV[1..-1]
 
-  Dir.chdir('my_store') do
+  system 'sudo apt-get install nodejs'
+  sh "rbenv global #{args[0]}" # 3.3.7
+  sh "rails _#{args[1]}_ new #{args[2]}" # 7.2.2.1
+
+  Dir.chdir(args[2]) do
     sh 'mkdir -p app/assets/config'
     sh 'cat <<MANIFEST > app/assets/config/manifest.js
 //= link_tree ../images

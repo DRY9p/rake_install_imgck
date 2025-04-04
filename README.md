@@ -27,6 +27,9 @@
 ```
 
 ## Устновка solidus
+### Example
 ```bash
-  rake solidus_install
+  rake solidus_install ruby_v rails_v name
+
+  rake solidus_install 3.3.7 7.2.2.1 example_store
 ```

@@ -1,6 +1,5 @@
-# Rake tasks for 
+# Rake for 
 ### / ImageMagick Source Installer /
-### / Creating & installation brew profile on ~./bashrc /
 ### / Creating & installation Vips .conf dynamic profile for libs /
 
 ## Требования
@@ -21,12 +20,13 @@
 ```bash
   rake vips_install
 ```
-```bash
-  rake brew_install
-```
 
 ## Для удаления после установки
 ```bash
   rake rm_imgck
 ```
 
+## Устновка solidus
+```bash
+  rake solidus_install
+```

@@ -1,0 +1,7 @@
+clean
+clobber
+clone_imgck_repo
+imgck_install
+rm_imgck
+solidus_install
+vips_install
